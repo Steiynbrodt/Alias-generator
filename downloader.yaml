@@ -1,0 +1,19 @@
+
+vocab: [alpha, vector, signal, orbit, nova, ember, frost, stone, river, forge, echo, pulse, core, flux]
+prefixes: [neo, meta, ultra, hyper]
+suffixes: ["", "x", "ix", "lab", "works"]
+separators: ["", "_", "-", "."]
+germanish_suffixes: ["", "werk", "schmiede", "meister"]
+
+mash_prob: 0.65
+prefix_prob: 0.35
+suffix_prob: 0.35
+germanish_prob: 0.25
+leet_prob: 0.08
+camel_prob: 0.12
+
+use_embeddings: true
+embedding_model: "fasttext-wiki-news-subwords-300"
+top_k: 40
+mix_with_random_prob: 0.35
+
